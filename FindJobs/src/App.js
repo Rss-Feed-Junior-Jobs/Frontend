@@ -6,6 +6,7 @@ import SearchBar from "./components/SearchBar";
 import JobCard from "./components/Job/JobCard";
 import NewJob from "./components/Job/NewJob";
 import jobData from './dummyData';
+import SignIn from "./components/SignIn";
 
 
 export default () => {
@@ -13,6 +14,8 @@ export default () => {
     <ThemeProvider theme = {theme}>
       <Header />
       <NewJob/>
+      <SignIn/>
+      <PricingContent />
       <Grid container justify="center">
         <Grid item xs={10}>
           <SearchBar/>
