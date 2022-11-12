@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  
+<head>
+    <title>
+        Pricing 
+    </title>
+      
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+  
+<body>
+    <div class="container">
+        <h2>Selecciona tú plan</h2>
+        <div class="price-row">
+            <div class="price-col">
+                <p>Free (Acceso 12 días gratis)</p>
+                <h3>$ 0 COP <span>/mes</span></h3>
+                <ul>
+                    <li>Registro de Empresas y backup</li>
+                    <li>Registro de Usuario y backup</li>
+                    <li>Conoce las ultimas tendencias en nuestro blog</li>
+                    <li>5 busquedas de empleos</li>
+                </ul>
+                <button>Comprar ahora</button>
+            </div>
+            <div class="price-col">
+                <p>Standard</p>
+                <h3>$ 50.000 COP <span>/Mes</span></h3>
+                <ul>
+                  <li>Registro de Empresas y backup</li>
+                  <li>Registro de Usuario y backup</li>
+                  <li>Atualización de datos</li>
+                  <li>Conoce las ultimas tendencias en nuestro blog</li>
+                  <li>Busca sin límites los empleos que necesites</li>
+
+                </ul>
+                <button>Comprar ahora</button>
+            </div>
+          </div> 
+        </div>
+</body>
+  
+
+{% endblock %}
