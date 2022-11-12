@@ -106,7 +106,7 @@
                         </tbody>
                     </table>
                     {% else %}
-                    <p class="m-5">Aún no tienes ningún empleo<a href="{% url 'jobapp:create-job' %}">Create a new one.</a></p>
+                    <p class="m-5">Aún no tienes ningún empleo.<a href="{% url 'jobapp:create-job' %}">Crear un nuevo empleo.</a></p>
                     {% endif %}
                     {% elif user.role == "employee" %}
 
