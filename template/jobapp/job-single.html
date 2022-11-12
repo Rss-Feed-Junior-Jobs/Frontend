@@ -176,7 +176,7 @@
           {% elif  request.user.id == job.user.id and  user.role == 'employer' %}
           <div class="col-6">
 
-            <a href="{% url 'jobapp:edit-job' job.id %}" class="btn btn-block btn-light btn-md">Edit</a>
+            <a href="{% url 'jobapp:edit-job' job.id %}" class="btn btn-block btn-light btn-md">Editar</a>
           </div>
           {% elif user.role == none %}
             <div class="col-6">
