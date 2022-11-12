@@ -53,15 +53,15 @@
                         <select name="job_type" class="selectpicker border rounded" id="job-type" data-style="btn-black" data-width="100%" data-live-search="true" title="Select Job Type">
                             
                             
-                              <option value="1" {% if field.value == '1' %} selected {% endif %}>Full time</option>
-                              <option value="2" {% if field.value == '2' %} selected {% endif %}>Part time</option>
+                              <option value="1" {% if field.value == '1' %} selected {% endif %}>Tiempo Completo</option>
+                              <option value="2" {% if field.value == '2' %} selected {% endif %}>Medio Tiempo</option>
                               <option value="3" {% if field.value == "3" %} selected {% endif %}>Internship</option>
                         </select>
                         </div>
                     
                     {% elif field.name == 'category' %}
                         <div class="form-group">
-                        <label for="job-type">Category</label>
+                        <label for="job-type">Categoría</label>
                         <select name="category" class="selectpicker border rounded" id="job-type" data-style="btn-black" data-width="100%" data-live-search="true" title="Select Job Type">
                               
                               {% for category in categories %}
