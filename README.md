@@ -1,4 +1,4 @@
-# Job Portal
+# RSS Feed Junior Jobs
 
 Django Job Portal.
 
